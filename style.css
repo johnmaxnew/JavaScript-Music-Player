@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+    font-family: 'Open Sans' sans-serif;
+}
+button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+.m-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    position: relative;
+    width: 245px;
+    height: 450px;
+    background-color: black;
+    border-radius: 20px;
+    border: 8px 4px solid #c6c6c6;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
