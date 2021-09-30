@@ -29,3 +29,43 @@ button{
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.bg img{
+    height: 105%;
+    width: 105%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    filter: blur(6px);
+    -webkit-filter: blur(5px);
+}
+#blayer{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(18, 6, 61);
+    position: absolute;
+    z-index: 2;
+}
+#menu{
+    position: relative;
+    z-index: 3;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu img{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.volume-container{
+    position: relative;
+    height: 15px;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
