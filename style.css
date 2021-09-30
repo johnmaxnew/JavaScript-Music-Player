@@ -69,3 +69,15 @@ button{
     justify-content: center;
     align-items: center;
 }
+.volume-container img{
+    height: 16px;
+    width: 16px;
+    margin: 0 5px;
+}
+.slider{
+    height: 1px;
+    width: 110px;
+}
+.icon{
+    color: aqua;
+}
